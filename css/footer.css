@@ -1,0 +1,154 @@
+/* ============ FOOTER ============ */
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.page-footer {
+    border-top: 1px solid rgba(252, 249, 249, 0.1);
+    background: #1c2225;
+    color: #fcf9f9;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 637px; /* Мінімальна висота для мобільної версії */
+}
+
+.container {
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 40px;
+    min-height: 637px; /* Мінімальна висота для контейнера */
+    box-sizing: border-box;
+}
+
+.page-footer-bottom-block {
+    padding-left: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    row-gap: 25px;
+}
+
+.menu-item {
+    flex: 1 1 calc(50% - 40px);
+}
+
+.menu-link {
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-transform: uppercase;
+    color: #fcf9f9;
+    text-decoration: none;
+    display: block;
+}
+
+.about-us:hover {
+    color: #ecd979;
+}
+
+.page-footer-title {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.22727;
+    letter-spacing: -0.03em;
+    color: #fcf9f9;
+    width: 335px;
+    height: 216px;
+}
+
+.accent-color {
+    color: #ecd979;
+}
+
+.thumb {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.ornament-img {
+    position: relative;
+    bottom: 0;
+    width: auto;
+    height: 100%; 
+}
+
+
+
+
+  
+ 
+
+
+
+/*     MEDIA 320px -> 767px     */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+}
+
+/*     MEDIA 0px -> 1158px     */
+
+@media screen and (max-width: 1157px) {
+
+
+
+}
+
+/*     MEDIA 768px -> 1158px     */
+
+@media (min-width: 768px) and (max-width: 1157px) {
+  
+}
+
+
+@media screen and (min-width: 320px) and (max-resolution: 96dpi) {
+  .heroes {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/heroes-bg/heroes-mobile-bg@1x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-resolution: 96dpi) {
+  .heroes {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/heroes-bg/heroes-tablet-bg@1x.jpg);
+  }
+}
+
+@media screen and (min-width: 1158px) and (max-resolution: 96dpi) {
+  .heroes {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/heroes-bg/heroes-desktop-bg@1x.jpg);
+  }
+}
+ 
+  
