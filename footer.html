@@ -40,10 +40,16 @@
                     A touch of <span class="accent-color">Ukrainian</span> culture in every embroidery
                 </h2>
             </div>
+          
             <div class="thumb">
-                <img class="ornament-img" src="./image/ornament.png" alt="ornament">
-                
+                <picture>
+                    <source media="(min-width: 1440px)" srcset="./image/ornamentdestopmax@2x.png 2x, ./image/ornamentdestopmax.png 1x">
+                    <source media="(min-width: 1280px)" srcset="./image/ornamentdesktop@2x.png 2x, ./image/ornamentdesktop.png 1x">
+                    <source media="(min-width: 768px)" srcset="./image/ornamenttablet@2x.png 2x, ./image/ornamenttablet.png 1x">
+                    <img class="ornament-img" src="./image/ornament@2x.png" srcset="./image/ornament@2x.png 2x, ./image/ornament.png 1x" alt="орнамент">
+                </picture>
             </div>
+            
         </div>
     </footer>
 </body>
